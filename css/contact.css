@@ -1,0 +1,81 @@
+.location{
+    width: 82%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+address  {
+    text-align: center;
+}
+
+
+.contact-us{
+    width: 70%;
+    margin: auto;
+}
+
+.contact-column{
+    flex-basis: 48;
+    margin-bottom: 30px;
+    
+    
+}
+.contact-column aside{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-column .fa{
+    font-size: 28px;
+    color: rgb(7, 1, 5);
+    margin: 10px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.contact-column, aside, p{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.contact-column sub{
+    float: left;
+    font-size: 20px;
+}
+
+.contact-column aside h5{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: rgb(7, 2, 6);
+    font-weight: 400;
+
+}
+
+.contact-column input, .contact-column textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.send-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(3, 1, 2);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: rgba(255, 0, 179, 0.678);
+}
